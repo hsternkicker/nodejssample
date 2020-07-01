@@ -5,7 +5,7 @@ module.exports = (/*options*/) => {
 
   app.get('/', (req, res) => {
     // Use req.log (a `pino` instance) to log JSON:
-    req.log.info({message: 'Hello from Appsody Demo with pipeline!'});
+    req.log.info({message: 'Hello from Appsody Demo with pipeline for demo!'});
      res.send('Hello from Appsody Demo with pipeline!');
   });
 
